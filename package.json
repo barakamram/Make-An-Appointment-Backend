@@ -1,0 +1,27 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "Backend for a login system",
+  "main": " server.js",
+  "scripts": {
+    "dev": "nodemon -r dotenv/config src/index.js dotenv_config_path=env/local.env"
+  },
+  "author": "BAM",
+  "license": "(MIT)",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "moment": "^2.29.3",
+    "mongoose": "^6.2.11",
+    "nodemailer": "^6.7.3",
+    "nodemon": "^2.0.16",
+    "serve": "^13.0.2",
+    "timerange": "^0.2.0",
+    "timeranges": "^1.0.3",
+    "uuid": "^8.3.2"
+  },
+  "engines": {
+    "node": "16.14.2"
+  }
+}
